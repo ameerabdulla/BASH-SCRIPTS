@@ -1,0 +1,24 @@
+#!/bin/bash
+
+array=( 1 2 3 4 5 )
+
+echo "${array[*]}"
+
+array+=( 6 7 8 9 )
+
+echo "${array[*]}"
+#!/bin/bash 
+
+a1=$(ls)
+cat *.sh > file2
+echo "done"
+#!/bin/bash 
+
+
+echo "please enter your value"
+read a && read b
+
+echo "you answer is $(($a*$b))"
+
+#let c=$a+$b 
+#echo "$c"
